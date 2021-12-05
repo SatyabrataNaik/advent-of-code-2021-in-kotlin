@@ -13,7 +13,10 @@ fun main(args: Array<String>) {
 //    print(numbers)
 
     // test mutable lists
-    var a = MutableList(5) { _ -> MutableList(5) { _ -> 0 } }
-    a.add(mutableListOf(0, 0, 0, 0, 1, 1))
-    println(a)
+//    var a = MutableList(5) { _ -> MutableList(5) { _ -> 0 } }
+//    a.add(mutableListOf(0, 0, 0, 0, 1, 1))
+//    println(a)
+    var a = "0001011"
+    var x = a.toInt(2)
+    print(x)
 }
